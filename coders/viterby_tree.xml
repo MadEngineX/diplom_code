@@ -1,0 +1,145 @@
+<diagramm>
+	<data name = "11">
+    <value value = "1">
+    </value>
+		<data name = "10">
+        <value value = "0">
+        </value>
+			<data name = "00">
+                <value value = "1">
+                </value>
+				<data name = "10">
+                <value value = "1">
+                </value>
+					<data name = "11">
+					</data>
+                    <value value = "1">
+                    </value>
+					<data name = "00">
+					</data>
+                    <value value = "0">
+                    </value>
+				</data>
+				<data name = "01">
+                <value value = "0">
+                </value>
+					<data name = "01">
+                    <value value = "0">
+                    </value>
+					</data>
+					<data name = "10">
+                    <value value = "0">
+                    </value>
+					</data>
+				</data>
+			</data>
+			<data name = "11">
+				<data name = "00">
+					<data name = "00">
+					</data>
+					<data name = "11">
+					</data>
+				</data>
+				<data name = "11">
+					<data name = "10">
+					</data>
+					<data name = "01">
+					</data>
+				</data>
+			</data>
+		</data>
+		<data name = "01">
+			<data name = "01">
+				<data name = "11">
+					<data name = "00">
+					</data>
+					<data name = "11">
+					</data>
+				</data>
+				<data name = "00">
+					<data name = "10">
+					</data>
+					<data name = "01">
+					</data>
+				</data>
+			</data>
+			<data name = "10">
+				<data name = "10">
+					<data name = "10">
+					</data>
+					<data name = "01">
+					</data>
+				</data>
+				<data name = "01">
+					<data name = "00">
+					</data>
+					<data name = "11">
+					</data>
+				</data>
+			</data>
+		</data>
+	</data>
+
+	<data name = "00">
+		<data name = "11">
+			<data name = "10">
+				<data name = "11">
+					<data name = "00">
+					</data>
+					<data name = "11">
+					</data>
+				</data>
+				<data name = "00">
+					<data name = "10">
+					</data>
+					<data name = "01">
+					</data>
+				</data>
+			</data>
+			<data name = "01">
+				<data name = "01">
+					<data name = "00">
+					</data>
+					<data name = "11">
+					</data>
+				</data>
+				<data name = "10">
+					<data name = "10">
+					</data>
+					<data name = "01">
+					</data>
+				</data>
+			</data>
+		</data>
+		<data name = "00">
+			<data name = "11">
+				<data name = "10">
+					<data name = "00">
+					</data>
+					<data name = "11">
+					</data>
+				</data>
+				<data name = "01">
+					<data name = "01">
+					</data>
+					<data name = "10">
+					</data>
+				</data>
+			</data>
+			<data name = "00">
+				<data name = "00">
+					<data name = "00">
+					</data>
+					<data name = "11">
+					</data>
+				</data>
+				<data name = "11">
+					<data name = "10">
+					</data>
+					<data name = "01">
+					</data>
+				</data>
+			</data>
+		</data>
+	</data>
+</diagramm>
