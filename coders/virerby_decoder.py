@@ -32,7 +32,7 @@ def  viterby_decode(message):
             h_weight = h_weight + hamming_weight(bits[i//2], couple_in_key)
             new_dict[diagram[key]] = h_weight
 
-    print(new_dict)
+    #print(new_dict)
     ves = 10
     result = 0
     for i in new_dict:
@@ -41,9 +41,9 @@ def  viterby_decode(message):
             result = i
     print('answer = ' + result + ' ves = ' + str(ves))
 
-    return bits, result, ves
+    return result[:3], '  errors: ' + str(ves)
 
 message = [1, 1, 1, 0, 0, 0, 1, 0, 1, 1]
-print(viterby_decode(message))
+#print(viterby_decode(message))
 
-print()
+#print()
