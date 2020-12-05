@@ -23,8 +23,8 @@ def iter_code(message):
 
 def iter_decode(message):
     check = iter_code(message[:-2])
-    print("message " + str(message))
-    print("check " + str(check))
+    #print("message " + str(message))
+    #print("check " + str(check))
     if (message[3] != check[3]) or (message[4] != check[4]):
         print('Есть ошибки')
         x_of_error = 0
@@ -49,5 +49,5 @@ def iter_decode(message):
 #message_in = ["101",
 #              "011",
 #              "110"]
-message_in = ['101', '011', '110', '000', '000']
-iter_decode(message_in)
+#message_in = ['101', '011', '110', '000', '000']
+#iter_decode(message_in)

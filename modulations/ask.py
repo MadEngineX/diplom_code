@@ -21,10 +21,10 @@ def ASDK(fc, data):
     s = []
     bits = []
     bits_out = []
-    while (t < 10):
+    while (t < 15):
         s += [sin(2 * pi * fc * t)]
         t += tiv
-    print(len(data))
+    #print(len(data))
     for i in range(0, len(data)):
         if (int(s[i]) == 0) and (int(data[i]) == 0):
             bits.append(0)
