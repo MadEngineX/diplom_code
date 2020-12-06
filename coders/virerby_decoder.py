@@ -41,7 +41,7 @@ def  viterby_decode(message):
             result = i
     print('answer = ' + result + ' ves = ' + str(ves))
 
-    return result[:3], '  errors: ' + str(ves)
+    return result[:3] #, '  errors: ' + str(ves)
 
 message = [1, 1, 1, 0, 0, 0, 1, 0, 1, 1]
 #print(viterby_decode(message))

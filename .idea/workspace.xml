@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff6c484-5529-4a08-85f1-7e40c1f99ddf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/errors_counter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coders/iter_coder.py" afterPath="$PROJECT_DIR$/coders/iter_coder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coders/virerby_decoder.py" afterPath="$PROJECT_DIR$/coders/virerby_decoder.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph_test.py" afterPath="$PROJECT_DIR$/graph_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modulations/ask.py" afterPath="$PROJECT_DIR$/modulations/ask.py" />
     </list>
@@ -30,7 +31,7 @@
     <SUITE FILE_PATH="coverage/diplom_tokaev$fsk.coverage" NAME="fsk Coverage Results" MODIFIED="1606825843780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modulations" />
     <SUITE FILE_PATH="coverage/diplom_tokaev$virerby_decoder.coverage" NAME="virerby_decoder Coverage Results" MODIFIED="1606410945163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coders" />
     <SUITE FILE_PATH="coverage/diplom_tokaev$main.coverage" NAME="main Coverage Results" MODIFIED="1605706524948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/diplom_tokaev$graph_test.coverage" NAME="graph_test Coverage Results" MODIFIED="1607180697734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/diplom_tokaev$graph_test.coverage" NAME="graph_test Coverage Results" MODIFIED="1607291986734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -38,8 +39,8 @@
       <file leaf-file-name="graph_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graph_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2541">
-              <caret line="241" column="43" lean-forward="false" selection-start-line="241" selection-start-column="43" selection-end-line="241" selection-end-column="43" />
+            <state relative-caret-position="304">
+              <caret line="635" column="71" lean-forward="false" selection-start-line="635" selection-start-column="71" selection-end-line="635" selection-end-column="71" />
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
               </folding>
@@ -47,11 +48,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="errors_counter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/errors_counter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ask.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modulations/ask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="446">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="virerby_decoder.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coders/virerby_decoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -60,8 +81,8 @@
       <file leaf-file-name="iter_coder.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coders/iter_coder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="1071">
+              <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -70,7 +91,7 @@
       <file leaf-file-name="create_viterby.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coders/create_viterby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="693">
               <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="35" selection-end-column="15" />
               <folding />
             </state>
@@ -121,12 +142,14 @@
         <option value="$PROJECT_DIR$/coders/create_viterby.py" />
         <option value="$PROJECT_DIR$/graph_interface.py" />
         <option value="$PROJECT_DIR$/tat.py" />
-        <option value="$PROJECT_DIR$/coders/virerby_decoder.py" />
         <option value="$PROJECT_DIR$/modulations/fsk.py" />
         <option value="$PROJECT_DIR$/yandex.py" />
         <option value="$PROJECT_DIR$/coders/iter_coder.py" />
-        <option value="$PROJECT_DIR$/graph_test.py" />
+        <option value="$PROJECT_DIR$/buttons/buttons_tab1.py" />
         <option value="$PROJECT_DIR$/modulations/ask.py" />
+        <option value="$PROJECT_DIR$/coders/virerby_decoder.py" />
+        <option value="$PROJECT_DIR$/errors_counter.py" />
+        <option value="$PROJECT_DIR$/graph_test.py" />
       </list>
     </option>
   </component>
@@ -157,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,38 +194,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diplom_tokaev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diplom_tokaev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modulations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diplom_tokaev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diplom_tokaev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,16 +497,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18152525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18421052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27113062" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34767836" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1619479" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30011326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -560,30 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coders/virerby_decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coders/viterby_tree.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="n#data#1;n#data#0;n#data#1;n#data#0;n#diagramm#0;n#!!top" expanded="false" />
-            <element signature="n#data#0;n#data#0;n#data#1;n#diagramm#0;n#!!top" expanded="false" />
-            <element signature="n#data#1;n#data#0;n#data#1;n#diagramm#0;n#!!top" expanded="false" />
-            <element signature="n#data#0;n#data#1;n#data#0;n#data#1;n#diagramm#0;n#!!top" expanded="false" />
-            <element signature="n#data#0;n#data#1;n#data#1;n#diagramm#0;n#!!top" expanded="false" />
-            <element signature="n#data#0;n#data#0;n#data#1;n#data#1;n#diagramm#0;n#!!top" expanded="false" />
-            <element signature="n#data#1;n#data#0;n#data#1;n#data#1;n#diagramm#0;n#!!top" expanded="false" />
-            <element signature="n#data#1;n#data#1;n#data#1;n#diagramm#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coders/tree_parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -824,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coders/virerby_decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -854,34 +819,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coders/iter_coder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/coders/create_viterby.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="693">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="35" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coders/iter_coder.py">
+    <entry file="file://$PROJECT_DIR$/buttons/buttons_tab1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="34" />
+        <state relative-caret-position="147">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modulations/ask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="446">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coders/virerby_decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/errors_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2541">
-          <caret line="241" column="43" lean-forward="false" selection-start-line="241" selection-start-column="43" selection-end-line="241" selection-end-column="43" />
+        <state relative-caret-position="304">
+          <caret line="635" column="71" lean-forward="false" selection-start-line="635" selection-start-column="71" selection-end-line="635" selection-end-column="71" />
           <folding>
             <element signature="e#0#65#0" expanded="true" />
           </folding>
