@@ -2,6 +2,7 @@
 def iter_code(message):
     check_bits1 = []
     for j in range(len(message)):
+        #print(j)
         check_bit = int(message[0][j]) ^ int(message[1][j]) ^ int(message[2][j])
         check_bits1.append(check_bit)
     check_bits2 = []
@@ -51,3 +52,4 @@ def iter_decode(message):
 #              "110"]
 #message_in = ['101', '011', '110', '000', '000']
 #iter_decode(message_in)
+#print(iter_code(['110', '110', '101']))

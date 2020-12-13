@@ -21,7 +21,7 @@ def ASDK(fc, data):
     s = []
     bits = []
     bits_out = []
-    while (t < 150):
+    while (t < 1500):
         s += [sin(2 * pi * fc * t)]
         t += tiv
     print(len(data))

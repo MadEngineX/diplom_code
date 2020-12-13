@@ -13,7 +13,7 @@ def conv_encode(message):
         output2 = int(register[0]) ^ int(register[2])
         output_message.append(output1)
         output_message.append(output2)
-    print(output_message)
+    #print(output_message)
     return(output_message)
 
 #message = '1 1 0'

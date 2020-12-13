@@ -39,7 +39,7 @@ def  viterby_decode(message):
         if (new_dict[i]) < ves:
             ves = int(new_dict[i])
             result = i
-    print('answer = ' + result + ' ves = ' + str(ves))
+    #print('answer = ' + result + ' ves = ' + str(ves))
 
     return result[:3] #, '  errors: ' + str(ves)
 
