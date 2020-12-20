@@ -7,3 +7,5 @@ def errors_count(a, b):
             if a[i] != b[i]:
                 count+=1
     return count
+
+#print(errors_count('110101101110101101110101101110101101', '000101101000101101000101101000101101'))

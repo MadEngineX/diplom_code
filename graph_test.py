@@ -47,7 +47,7 @@ def button_ask():
     a = Toplevel()
     a.rowconfigure([0, 1, 2, 3, 4], minsize=50)
     a.columnconfigure([0, 1, 2, 3, 4], minsize=50)
-    Label(a, text="Введите входную последоватеьность через пробел").grid(row=0, column=3)
+    Label(a, text="Введите входную последоватеьность").grid(row=0, column=3)
     entry = Entry(a)
     entry.grid(row=1, column=3)
     button5 = Button(a, text="ОК", command = button5_ask)
