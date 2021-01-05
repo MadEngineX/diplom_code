@@ -19,9 +19,9 @@ tab_control = Notebook(window)
 tab1 = Frame(tab_control)
 tab2 = Frame(tab_control)
 tab3 = Frame(tab_control)
-tab_control.add(tab1, text='Одиночный запуск')
-tab_control.add(tab2, text='Режим исследования')
-tab_control.add(tab3, text='Режим исследования2')
+tab_control.add(tab1, text='Макет')
+tab_control.add(tab2, text='эксперимент 1')
+tab_control.add(tab3, text='эксперимент 2')
 tab_control.grid()
 # Добавление виджетов
 

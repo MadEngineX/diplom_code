@@ -1,10 +1,7 @@
 from tkinter import * ##Импорт библиотек для графической оболояки
 from tkinter.ttk import *
 import matplotlib.pyplot as plt ## Импорт библиотек для построения графиков
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import random  ## Импорт библиотеки для генератора ошибок
-from modulations.ask import ASK, ASDK ##Импорт самописных модулей для модуляций
-from modulations.fsk import FSK
 from coders.convolutation_coder import conv_encode ## Импорт самописных модулей для кодирования
 from coders.virerby_decoder import viterby_decode
 from coders.iter_coder import iter_code, iter_decode
